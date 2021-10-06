@@ -33,12 +33,10 @@ body {
 
 .box {background: rgb(0, 0, 0);
   padding: 1rem;
-  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
-  border-radius: 20px;
+  max-width: 300px;
+  border-radius: 10px;
   text-align: center;
-  margin-top: 6rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin: auto;
   }
 
 .profile-pic {
@@ -49,3 +47,20 @@ body {
 li:hover{
   background-color: gray;
 }
+
+
+
+
+
+.box2 {background: rgb(0, 0, 0);
+  padding: 1rem;
+  max-width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  }
+
+  .destaque{
+    font-size: 20px;
+ 
