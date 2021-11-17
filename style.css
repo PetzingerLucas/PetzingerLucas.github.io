@@ -53,10 +53,12 @@ body {
 }
 
 
-li:hover{
+#projects li:hover{
   background-color: brown;
   border-radius: 10px;
   padding: 5px;
+  padding: 5px;
+  
 }
 
   .destaque{
