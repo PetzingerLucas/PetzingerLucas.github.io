@@ -18,7 +18,7 @@ body {
   background: url("./img/rsz_luca-.jpg") no-repeat top center;
   background-attachment: fixed;
   background-size: cover;
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
   justify-items: center;
@@ -52,14 +52,14 @@ body {
 }
 #projects li{
   padding: 5px;
+  opacity: 80%;
 }
 
 #projects li:hover{
-  background-color: brown;
+  /* background-color: brown; */
   border-radius: 10px;
-  padding: 5px;
-  padding: 5px;
-  
+  padding: 10px;
+  opacity: 100%;
 }
 
   .destaque{
@@ -130,7 +130,7 @@ a img:hover{
 }
 
 a:hover{
-  background-color: brown;
+  /* background-color: brown; */
   max-width: 65px;
   max-height: 65px;
   border-radius: 10px;
