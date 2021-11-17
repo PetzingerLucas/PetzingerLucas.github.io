@@ -4,7 +4,7 @@
 }
 
 img {
-  display: block;
+  display: flex;
   max-width: 100%;
   margin-bottom: 20px;
 }
@@ -18,7 +18,8 @@ body {
   background: url("../img/luca-.jpg") no-repeat top center;
   background-attachment: fixed;
   background-size: cover;
-  display: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align-last:auto;
   justify-items: center;
@@ -41,19 +42,9 @@ body {
   margin-bottom: 30px;
   line-height: 30px;
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
   }
-
-  .box2 {background: rgb(0, 0, 0);
-  
-    border-radius: 30px;
-    text-align: left;
-    margin: 0 auto;
-    width: 20%;
-    padding: 30px;
-    line-height: 30px;
-    min-width: 300px;
-    
-    }
     
 .profile-pic {
   border-radius: 50%;
@@ -63,7 +54,7 @@ body {
 
 
 li:hover{
-  background-color: gray;
+  background-color: brown;
   border-radius: 10px;
   padding: 5px;
 }
@@ -78,3 +69,67 @@ li:hover{
       text-decoration:none;
     }
 
+.icons{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  min-width: 300px;
+  background-color: black;
+  justify-content: space-around;
+ 
+}
+#instaIcon{
+width:53px;
+display: flex;
+background-color:black;
+border-radius: 10px;
+
+
+}
+
+#linkedinIcon{
+  background-color: aliceblue;
+  width: 50px;
+  border-radius: 5px;
+  display: flex;
+ 
+}
+
+#mailIcon{
+  background-color: aliceblue;
+  width: 50px;
+  border-radius: 5px;
+  display: flex;
+
+}
+
+#GitIcon{
+  background-color: aliceblue;
+  width: 50px;
+  border-radius: 5px;
+  display: flex;
+
+}
+
+.icons img{
+  opacity: 80%;
+}
+
+a img:hover{
+  
+  border-radius: 20px;
+  min-width: 60px;
+  display: flex;
+  opacity: 100%;
+}
+
+a:hover{
+  background-color: brown;
+  max-width: 65px;
+  max-height: 65px;
+  border-radius: 10px;
+  padding: 4px;
+}
